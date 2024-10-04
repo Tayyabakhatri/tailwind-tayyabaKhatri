@@ -1,0 +1,38 @@
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#btn{
+    margin-top: 5px;
+    background-color: rgba(0, 128, 0, 0.589);
+    padding: 3px 7px;
+    color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    font-size: small;
+}
+#go{
+    font-size:xx-large;
+    font-weight: bold;
+}
+.name{
+    font-size: medium;
+}
+#counter{
+
+    position: relative;
+    color: rgb(0, 162, 255);
+    font-size: xx-large;
+}
+#counter span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(0deg);
+    transform-origin: bottom-center;
+}
